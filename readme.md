@@ -29,3 +29,5 @@ To use the component, drop it on a page and use the `{% component 'weather' %}` 
             {% component 'weather' %}
         </body>
     </html>
+
+![back-end preview](http://dl.dropboxusercontent.com/u/73673100/Screenshots/pxs7.png)
