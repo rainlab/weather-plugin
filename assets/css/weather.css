@@ -1,0 +1,51 @@
+.weather-widget {
+    font-family: "Helvetica", sans-serif;
+}
+
+.weather-widget .container {
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 170px;
+    color: #2b3e50;
+}
+
+.weather-widget .container.icon-01d {background-image: url(../images/01d.png);}
+.weather-widget .container.icon-01n {background-image: url(../images/01n.png);}
+.weather-widget .container.icon-02d {background-image: url(../images/02d.png);}
+.weather-widget .container.icon-02n {background-image: url(../images/02n.png);}
+.weather-widget .container.icon-03d {background-image: url(../images/03d.png);}
+.weather-widget .container.icon-03n {background-image: url(../images/03n.png);}
+.weather-widget .container.icon-04d {background-image: url(../images/04d.png);}
+.weather-widget .container.icon-04n {background-image: url(../images/04n.png);}
+.weather-widget .container.icon-09d {background-image: url(../images/09d.png);}
+.weather-widget .container.icon-09n {background-image: url(../images/09n.png);}
+.weather-widget .container.icon-10d {background-image: url(../images/10d.png);}
+.weather-widget .container.icon-10n {background-image: url(../images/10n.png);}
+.weather-widget .container.icon-11d {background-image: url(../images/11d.png);}
+.weather-widget .container.icon-11n {background-image: url(../images/11n.png);}
+.weather-widget .container.icon-13d {background-image: url(../images/13d.png);}
+.weather-widget .container.icon-13n {background-image: url(../images/13n.png);}
+.weather-widget .container.icon-50d {background-image: url(../images/50d.png);}
+.weather-widget .container.icon-50n {background-image: url(../images/50n.png);}
+
+.weather-widget .container h3 {
+    font-size: 21px;
+    margin: 0 0 20px 0;
+    font-weight: normal;
+}
+
+.weather-widget .container p {
+    margin-top: 0;
+}
+
+.weather-widget .container p.temp {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.weather-widget .container p.description {
+    font-size: 18px;
+    color: #808c8d;
+    margin-bottom: 0;
+}
