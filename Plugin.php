@@ -13,7 +13,7 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'Weather',
-            'description' => 'Provides the local weahter information.',
+            'description' => 'Provides the local weather information.',
             'author'      => 'Alexey Bobkov, Samuel Georges',
             'icon'        => 'icon-sun-o'
         ];
