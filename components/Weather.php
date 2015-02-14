@@ -1,6 +1,6 @@
 <?php namespace RainLab\Weather\Components;
 
-use System\Classes\ApplicationException;
+use ApplicationException;
 use Cms\Classes\ComponentBase;
 use Cache;
 use Request;
