@@ -54,8 +54,9 @@ class Weather extends ComponentBase
         $countries = $this->loadCountryData();
         $result = [];
 
-        foreach ($countries as $code=>$data)
+        foreach ($countries as $code=>$data) {
             $result[$code] = $data['n'];
+        }
 
         return $result;
     }
@@ -64,6 +65,7 @@ class Weather extends ComponentBase
     {
         $countries = $this->loadCountryData();
         $countryCode = Request::input('country');
+
         return isset($countries[$countryCode]) ? $countries[$countryCode]['s'] : [];
     }
 
